@@ -67,7 +67,7 @@ h6 {
     cursor: pointer;
     border-radius: 25px;
     cursor: pointer;
-    box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.637),0 5px 15px 0 #0de2db;
+    box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.637),0 5px 8px 0 #0de2db;
     transition: .5s;
     
 }
