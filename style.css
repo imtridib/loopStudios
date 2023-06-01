@@ -35,7 +35,7 @@ h6 {
 }
 
 .navbar ul li{
-    background-color: rgba(122, 140, 210, 0.249);
+    background-color: rgba(255, 255, 255, 0.26);
     list-style-type: none;
     display: inline-block;
     margin: 2px;
@@ -45,21 +45,47 @@ h6 {
 .buttonst {
     padding: 15px 20px;
     font-size: 16px;
-    color: white;
+    color: whitesmoke;
+    text-shadow: 1px 1px #0de2db;
     background-color: transparent;
-    outline-style: none;
-    border: 0; 
+    outline: none;
+    border: none; 
     cursor: pointer;
     border-radius: 25px;
+    cursor: pointer;
+    width: 120px;
 }
 
-.buttonst:hover {
-    
-    color: rgb(255, 255, 255); 
+.buttonst:hover{
+    text-shadow: 1px 1px #0de2db;
+    font-weight: bolder;
+    width: 120px;
+    color: #ffff;
+    outline: none;
+    border: none; 
+    cursor: pointer;
     border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.285),0 5px 15px 0 rgba(255, 255, 255, 0.307);
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.637),0 5px 15px 0 #0de2db;
     transition: .5s;
-  }
+}
+
+/*.buttonst::after{
+    content: " ";
+    height: 2px;
+    width: 0%;
+    display: block;
+    background-color: white;   
+}
+
+.buttonst:hover::after {
+    content: " ";
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transition: .5s ease-in-out; 
+    
+  }*/
 
 .header {
    margin-top: 125px;
