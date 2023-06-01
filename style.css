@@ -31,7 +31,7 @@ h6 {
     justify-content: space-between;
     padding-top: 40px;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 3%;
 }
 
 .navbar ul li{
@@ -44,7 +44,9 @@ h6 {
 
 .buttonst {
     padding: 15px 20px;
+    text-align: center;
     font-size: 16px;
+    font-weight:lighter;
     color: whitesmoke;
     text-shadow: 1px 1px #0de2db;
     background-color: transparent;
@@ -53,13 +55,13 @@ h6 {
     cursor: pointer;
     border-radius: 25px;
     cursor: pointer;
-    width: 120px;
+    width: 105px;
 }
 
 .buttonst:hover{
-    text-shadow: 1px 1px #0de2db;
     font-weight: bolder;
-    width: 120px;
+    text-shadow: 1px 1px #0de2db;
+    width: 105px;
     color: #ffff;
     outline: none;
     border: none; 
