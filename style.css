@@ -1,0 +1,87 @@
+html,body { 
+    height: 100%;
+    width: 100%;  
+    position:relative;
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Geologica', sans-serif;
+    font-weight: 400;   
+}
+
+.container {
+  background-image:url("images/desktop/image-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar ul li{
+    background-color: rgba(122, 140, 210, 0.249);
+    list-style-type: none;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 25px;
+}
+
+.buttonst {
+    padding: 15px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    outline-style: none;
+    border: 0; 
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.buttonst:hover {
+    
+    color: rgb(255, 255, 255); 
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.285),0 5px 15px 0 rgba(255, 255, 255, 0.307);
+    transition: .5s;
+  }
+
+.header {
+   margin-top: 125px;
+   margin-left: 150px;
+   margin-right: auto;
+   
+   height: 250px;
+   width: 515px;
+   
+   padding-left: 60px;
+   padding-right: auto;
+   
+   font-size: 28px;
+   font-weight: lighter;
+   
+   color: white;
+   background-color:transparent;
+   text-transform: uppercase;
+     
+   border-color: aliceblue;
+   border: 1px solid rgb(255, 255, 255);
+   outline-style: solid;
+   outline-color: rgb(255, 255, 255);
+   outline-width: thin;
+}
