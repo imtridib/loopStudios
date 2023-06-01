@@ -30,7 +30,7 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding-top: 40px;
-    padding-left: 10%;
+    padding-left: 7%;
     padding-right: 3%;
 }
 
@@ -46,7 +46,6 @@ h6 {
     padding: 15px 20px;
     text-align: center;
     font-size: 16px;
-    font-weight:lighter;
     color: whitesmoke;
     text-shadow: 1px 1px #0de2db;
     background-color: transparent;
@@ -70,6 +69,7 @@ h6 {
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.637),0 5px 15px 0 #0de2db;
     transition: .5s;
+    
 }
 
 /*.buttonst::after{
@@ -90,17 +90,17 @@ h6 {
   }*/
 
 .header {
-   margin-top: 125px;
-   margin-left: 150px;
+   margin-top: 135px;
+   margin-left: 105px;
    margin-right: auto;
    
-   height: 250px;
-   width: 515px;
+   height: 325px;
+   width: 575px;
    
    padding-left: 60px;
    padding-right: auto;
    
-   font-size: 28px;
+   font-size: 32px;
    font-weight: lighter;
    
    color: white;
