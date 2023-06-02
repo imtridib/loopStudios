@@ -12,7 +12,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,p {
     font-family: 'Geologica', sans-serif;
     font-weight: 400;   
 }
@@ -72,22 +72,6 @@ h6 {
     
 }
 
-/*.buttonst::after{
-    content: " ";
-    height: 2px;
-    width: 0%;
-    display: block;
-    background-color: white;   
-}
-
-.buttonst:hover::after {
-    content: " ";
-    height: 2px;
-    width: 100%;
-    background-color: white;
-    transition: .5s ease-in-out; 
-    
-  }*/
 
 .header {
    margin-top: 135px;
@@ -112,4 +96,38 @@ h6 {
    outline-style: solid;
    outline-color: rgb(255, 255, 255);
    outline-width: thin;
+}
+
+.container2 {
+    margin: 10%;
+    height: ;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 1200;
+}
+
+.descriptions {
+   margin-top: 205px;
+   margin-left: -165px;
+   padding-top: 2%;
+   padding-left: 9%;
+   background-color: #ffff;   
+   box-sizing: border-box;
+}
+
+.header2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.966);
+    word-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.paragraph {
+    margin-top: 0;
+    color: hsl(0, 0%, 55%);
+    line-height: 1.5;
+    word-spacing: 2px;
 }
