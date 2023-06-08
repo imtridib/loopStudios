@@ -499,9 +499,18 @@ h6,p {
         height: 700px;
       }
       
+    .container2 {
+        margin-left: 15%;
+    }
+
+    .menu_bar{
+        margin-left: 15%;
+    }
+
     .menu_options {
         margin: 10%;
-        margin-right: 7%;
+        margin-right: 5%;
+        margin-left: 15%;
         margin-top: 5%;
         align-items: center;   
         margin-bottom: 0px;
@@ -528,5 +537,5 @@ h6,p {
         margin-top: 10%;   
         margin-bottom: 0px;
     }
-      
+          
   }
