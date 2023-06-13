@@ -670,134 +670,144 @@ h6,p {
   }
 
 
-@media screen and (max-width: 425px) {
-    .container {
-        background-image:url("images/mobile/image-hero.jpg");
-        background-size: auto;
-        width: 750px ;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 1300px;
-      }
-      
-      .nav {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          padding-top: 40px;
-          padding-left: 7%;
-          padding-right: 3%;
-      }
-      
-      .navbar ul li{
-          background-color: transparent;
-          list-style-type: none;
-          display: inline-block;
-          margin: 2px;
-      }
-      
-      .buttonst {
-          padding: 15px 20px;
-          text-align: center;
-          font-size: 16px;
-          color: whitesmoke;
-          text-shadow: 1px 1px #0de2db;
-          background-color: rgba(255, 255, 255, 0.26);
-          outline: none;
-          border: none; 
-          cursor: pointer;
-          border-radius: 25px;
-          cursor: pointer;
-          width: 105px;
-      }
-      
-      .buttonst:hover{
-          font-weight: bolder;
-          text-shadow: 1px 1px #0de2db;
-          width: 105px;
-          color: #1e00e0;
-          outline: none;
-          border: none; 
-          cursor: pointer;
-          border-radius: 25px;
-          cursor: pointer;
-          box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.637),0 5px 8px 0 #0de2db;
-          transition: .5s;
-          
-      }
-      
-      .buttonst:active {
-          font-size: 15px;
-          box-shadow: 0 1px 2px 0 rgba(255, 253, 253, 0.637),0 2px 5px 0 #0de2db;
-          transition: .25s;
-        }
-      
-      
-      .header {
-         margin-top: 135px;
-         margin-left: 105px;
-         margin-right: auto;
-         
-         height: 325px;
-         width: 575px;
-         
-         padding-left: 60px;
-         padding-right: auto;
-         
-         font-size: 32px;
-         font-weight: lighter;
-         
-         color: white;
-         background-color:transparent;
-         text-transform: uppercase;
-           
-         border-color: aliceblue;
-         border: 1px solid rgb(255, 255, 255);
-         outline-style: solid;
-         outline-color: rgb(255, 255, 255);
-         outline-width: thin;
-      }
-    
-     .container2 {
-        margin: 10%;
-        /* margin: 0%; */
-        display: flex;
-        flex-direction: column;
-        height: 500px;
-        width: 705px;
-        margin-bottom: 0px;
-        background-color: #000000;
-    }
-    
-    .container_img {
-        height: 0px;
-        width: 05px;
-        box-sizing: border-box;
+@media screen and (max-width: 426px) and (min-width: 1px){
+
+    html,body { 
+        height: 100%;
+        width: 100%;
+        position:relative;
+        font-family: 'Open Sans';
+        margin: 0;
+        padding: 0;
     }
 
+    .container {
+      background-image:url("images/mobile/image-hero.jpg");      
+      width: 750px;
+      height: 1300px;
+      margin: 0px;
+    }
+    
+    
+    
+    .header {       
+       height: 225px;
+       width: 275px;     
+       
+       font-size: 32px;
+       font-weight: lighter;
+       
+       color: white;
+       background-color:transparent;
+       text-transform: uppercase;
+         
+       border-color: aliceblue;
+       border: 1px solid rgb(255, 255, 255);
+       outline-style: solid;
+       outline-color: rgb(255, 255, 255);
+       outline-width: thin;
+    }
+    
+    .container2 {
+        background-image:url("images/mobile/image-interactive.jpg");
+        background-size: 654px 448px;
+        background-repeat: no-repeat;
+        background-position:initial;
+        background-position-x: 95px;
+        background-position-y: 95px;
+        margin: 0%;
+        
+        height: 900px;
+        width: 654px;
+        margin-bottom: 0px;
+        position: relative;
+
+        align-items: center;
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
     .descriptions {
-       margin-top: 205px;
-       margin-left: -165px;
-       padding-top: 2%;
-       padding-left: 9%;
-       background-color: #ffff;   
-       box-sizing: border-box;
+        margin: 0px;
+    
+        position: absolute;
+        margin-top:0px;
+        margin-left: 0px;
+        
+        text-align: center;
+        padding-top: 0px;
+        
+        padding-bottom: 0px;
+        
+        width: 500px;
+        height: 315px;
+        background-color: #ffffff;
+        box-sizing: border-box;   
+    }
+
+
+    .menu_options {
+        margin: 10%;
+        margin-right: 7%;
+        margin-top: 5%;
+        align-items: center;   
+        margin-bottom: 0px;
+        
+        display: grid;
+        grid-template-columns: 256px ;
+        
+        grid-template-rows: 450px 450px 450px 450px 450px 450px 450px 450px; 
+        
+        column-gap: 5%;
+        row-gap: 5%;
+    
+        background-color: #ffffff;
+        padding: 0px;
     }
     
-    .header2 {
-        font-family: 'Josefin Sans', sans-serif;
-        color: rgba(0, 0, 0, 0.966);
-        word-spacing: 3px;
-        text-transform: uppercase;
-        font-size: 24px;
-        font-weight: 300;
+    .grid {
+        width: 256px;
+        height: 450px;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .fotter_info{
+        color:#ffffff;
+        width: 425px;
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;    
+        margin-bottom: 0px;
+    }
+
+    .all_logo {
+        width: 425px;
+        margin-top: 3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;    
+        margin-bottom: 0px;
     }
     
-    .paragraph {
-        margin-top: 0;
-        color: hsl(0, 0%, 55%);
-        line-height: 1.5;
-        word-spacing: 2px;
+
+    .about_section{
+        height: 25px;
+        width: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
   }
