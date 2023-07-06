@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | Loopstudios landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,21 +16,38 @@
   </style>
 </head>
 <body>
-
+  
   <div class="container">
      
-    <div class="nav">
+      <nav>
+        <div class="log_o"><img src="images/logo.svg" alt="Loopstudios"></div> 
+        <div class="openMenu"><img src="images/icon-hamburger.svg" alt="OpenMenu"></div>
+       <ul class="mainMenu">
+          <li><a class="active" href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
+          <div class="closeMenu"><img src="images/icon-close.svg" alt="closeMenu"></div>
+        </ul>
+      </nav>
+  
+  <script src="./app.js"></script>
+    <!-- <div class="nav">
         <img src="images/logo.svg" alt="Loopstudios">
-        <div class="navbar">
-         <ul>
+        <div class="logo"><img src="./images/icon-close.svg" alt="logo">
+          <img src="./images/icon-hamburger.svg" alt="logo"></div>
+
+        <div class="navbar">               
+          <ul>
            <li><button class="buttonst">About</button></li>
            <li><button class="buttonst">Careers</button></li>
            <li><button class="buttonst">Events</button></li> 
            <li><button class="buttonst">Products</button></li> 
            <li><button class="buttonst">Support</button></li> 
-         </ul>
+         </ul>         
         </div>
-      </div>  
+      </div>   -->
     
       <div class="header"><h1>Immersive experiences that deliver</h1></div>
   </div>
