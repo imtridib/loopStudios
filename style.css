@@ -1106,12 +1106,13 @@ nav .mainMenu .closeMenu {
     .info {
        color: #ffffff;
        font-size: 32px;
+       font-weight: bold;
        font-weight: 100;
        padding-top: 0px;
        margin: 0px;
-       text-align: center;
+       text-align:left;
        padding-top: 0px;
-       margin-left: 0px;
+       margin-left: 55px;
        margin-top: 150px;
        text-transform: uppercase;
        transition: 0.5s;
@@ -1122,6 +1123,17 @@ nav .mainMenu .closeMenu {
         color: #4afff6;
         transition: 0.5s;
     }
+    
+    .fotter {
+        height: 565px;
+        background-color: #000000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60%;   
+        margin-bottom: 0px;
+    }
+
 
     .fotter_info{
         color:#ffffff;
@@ -1143,19 +1155,36 @@ nav .mainMenu .closeMenu {
         margin-right: 10%;
         margin-bottom: 0%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;    
         margin-bottom: 0px;
     }
-    
-
-    .about_section{
+    .social_logo {
         height: 25px;
-        width: 55px;
+        width: 155px;
+        
+        position: absolute;
+        margin-top: 54%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .about_section{
+        height: 285px;
+        width: 768px;
+        font-size: 20px;
+        margin-top: 18px;
+        margin-left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .attribution{
+        margin-top: 105px;
     }
 
   }
