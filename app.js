@@ -13,3 +13,14 @@ function show(){
 function close(){
     mainMenu.style.top= '-100%';
 }
+
+var prevScrollpos = window.scrollY;
+window.onscroll = function() {
+  var currentScrollPos = window.scrollY;
+  if (prevScrollpos < currentScrollPos) {
+  //   document.querySelector(".mainMenu").style.top = "0";
+  // } else {
+    document.querySelector(".mainMenu").style.top = '-100%';
+  }
+  prevScrollpos = currentScrollPos;
+};
