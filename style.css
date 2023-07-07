@@ -712,10 +712,17 @@ nav .mainMenu .closeMenu {
       margin: 0px;
     }
 
-  
+
+    nav .openMenu{
+      margin-top: 42px;
+      margin-right: 45px; 
+    }
+    nav .log_o{
+      margin-top: 35px;  
+    }
     nav .mainMenu {
         padding-left: 0%;
-        height: 100vh;
+        height: 90vh;
         position: fixed;
         margin-top: 0px;
         top: 0;
@@ -723,19 +730,30 @@ nav .mainMenu .closeMenu {
         left: 0;
         z-index: 10;
         margin-top: 0px;
+
+        border-bottom-left-radius: 35% 15%;
+        border-bottom-right-radius: 35% 15%;
         flex-direction: column;
+        
         justify-content:center;
+        gap: 45px;
         align-items:center;
-        background: #000000;
+        
+        background-image: linear-gradient( rgb(125, 6, 161),rgb(126, 4, 207),  rgba(138, 6, 203, 0.721));
         transition: top 1s ease;
-        display: none;
+
+        border-bottom: 10px solid rgb(0, 225, 255);
     }
 
     nav .mainMenu li {
-        background-color: black;
+        background-color: rgba(243, 67, 3, 0.522);
         list-style-type: none;
         display: inline-block;
+        align-items: center;
+        width: 185px;
+        height: 85px;
         margin: 2px;
+        border-radius: 25%;
     }
     
     nav .mainMenu li a {
@@ -743,14 +761,14 @@ nav .mainMenu .closeMenu {
         
         font-family: 'Geologica', sans-serif;
         text-decoration: none;
-        padding: 15px 20px;
+        padding: 18px 25px;
         margin: 5px;
         margin-bottom: 25px;
         text-align: center;
         font-size: 32px;
         color: none;
         text-shadow: 1px 1px #0de2db;
-        background-color: black;
+        background-color: transparent;
         outline: none;
         border: none; 
         cursor: pointer;
@@ -784,6 +802,8 @@ nav .mainMenu .closeMenu {
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
+        margin-top: 37px;
+        margin-right: 45px;
         top: 20px;
         right: 20px;
     }
@@ -798,23 +818,30 @@ nav .mainMenu .closeMenu {
     
 
     
-    .header {       
-       height: 225px;
-       width: 275px;     
-       
-       font-size: 32px;
-       font-weight: lighter;
-       
-       color: white;
-       background-color:transparent;
-       text-transform: uppercase;
-         
-       border-color: aliceblue;
-       border: 1px solid rgb(255, 255, 255);
-       outline-style: solid;
-       outline-color: rgb(255, 255, 255);
-       outline-width: thin;
-    }
+    .header {
+        margin-top: 395px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        height: 455px;
+        width: 575px;
+        
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        font-size: 41px;
+        font-weight: lighter;
+        
+        color: white;
+        background-color:transparent;
+        text-transform: uppercase;
+          
+        border-color: aliceblue;
+        border: 1px solid rgb(255, 255, 255);
+        outline-style: solid;
+        outline-color: rgb(255, 255, 255);
+        outline-width: thin;
+     }
     
     .container2 {
         background-image:url("images/mobile/image-interactive.jpg");
@@ -1209,6 +1236,13 @@ nav .mainMenu .closeMenu {
       margin: 0px;
     }
 
+    nav .openMenu{
+        margin-top: 42px;
+        margin-right: 45px; 
+    }
+    nav .log_o{
+        margin-top: 35px;  
+    }
   
     nav .mainMenu {
         padding-left: 0%;
@@ -1294,6 +1328,8 @@ nav .mainMenu .closeMenu {
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
+        margin-top: 37px;
+        margin-right: 45px;
         top: 20px;
         right: 20px;
     }
@@ -1308,23 +1344,30 @@ nav .mainMenu .closeMenu {
     
 
     
-    .header {       
-       height: 225px;
-       width: 275px;     
-       
-       font-size: 32px;
-       font-weight: lighter;
-       
-       color: white;
-       background-color:transparent;
-       text-transform: uppercase;
-         
-       border-color: aliceblue;
-       border: 1px solid rgb(255, 255, 255);
-       outline-style: solid;
-       outline-color: rgb(255, 255, 255);
-       outline-width: thin;
-    }
+    .header {
+        margin-top: 395px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        height: 455px;
+        width: 575px;
+        
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        font-size: 41px;
+        font-weight: lighter;
+        
+        color: white;
+        background-color:transparent;
+        text-transform: uppercase;
+          
+        border-color: aliceblue;
+        border: 1px solid rgb(255, 255, 255);
+        outline-style: solid;
+        outline-color: rgb(255, 255, 255);
+        outline-width: thin;
+     }
     
     .container2 {
         background-image:url("images/mobile/image-interactive.jpg");
